@@ -1,0 +1,78 @@
+.container {
+  height: 72px;
+  margin: 0 auto;
+  padding: 0.8rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #b764ff, hsl(256, 100%, 63%));
+}
+
+.navhomeshop {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.home {
+  text-decoration: none;
+  color: #d5a165;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.shop {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.navcartlogin {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.cartlogin {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.cartlogin svg {
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.cartlogin a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.name {
+  margin-left: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.arrow {
+  font-size: 0.6rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+
+.logout {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  font-style: italic;
+  cursor: pointer;
+}

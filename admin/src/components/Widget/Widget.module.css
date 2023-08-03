@@ -1,0 +1,66 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.right {
+  align-self: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+}
+
+.counter {
+  font-size: 28px;
+  font-weight: 300;
+  display: flex;
+  gap: 8px;
+}
+
+.vnd {
+  font-size: 16px;
+}
+
+.icon {
+  width: 36px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .widget {
+    padding: 6px;
+  }
+
+  .counter {
+    font-size: 18px;
+    gap: 4px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 32px;
+  }
+}

@@ -1,0 +1,84 @@
+.homeContainer {
+  background-color: rgba(240, 244, 248, 0.564);
+  padding: 16px 8px;
+}
+
+.homeContainer h2 {
+  font-size: 18px;
+  color: #33333377;
+  margin-left: 12px;
+}
+
+.widgets {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.listContainer {
+  background-color: #fff;
+  padding: 4px 8px;
+  margin: 0 12px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-collapse: collapse;
+}
+
+.table th {
+  font-weight: 500;
+}
+
+.table td,
+.table th {
+  padding: 8px;
+  border: 1px rgba(190, 190, 190, 0.567) solid;
+  text-align: center;
+}
+
+.table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.table tr:nth-child(even) {
+  background-color: rgba(240, 244, 248, 0.564);
+}
+
+.table tr:hover {
+  background-color: #bcbcbc88;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #000;
+}
+
+.btn {
+  background-color: rgba(10, 170, 71, 0.747);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(42, 198, 102, 0.792);
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    width: calc(100vw - 97px);
+  }
+  .widgets {
+    gap: 4px;
+    overflow-x: auto;
+  }
+  .listContainer {
+    overflow-x: auto;
+  }
+}

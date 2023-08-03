@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+}
+
+.outlet {
+  flex-grow: 1;
+}
