@@ -1,0 +1,46 @@
+.title {
+  text-align: center;
+}
+
+.title p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 4.2rem;
+  margin-bottom: 0;
+}
+
+.title h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+
+.category a {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.2s ease;
+  background-color: #fff;
+}
+
+.category a:hover .overlay {
+  opacity: 0.5;
+}

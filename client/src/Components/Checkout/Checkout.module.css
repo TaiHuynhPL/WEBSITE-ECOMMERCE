@@ -1,0 +1,104 @@
+.checkout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.checkoutBanner {
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.6rem;
+}
+
+.checkoutlarge {
+  font-size: 2.4rem;
+  font-style: italic;
+}
+
+.checkoutsmall {
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbanner {
+  color: rgb(0, 0, 0, 0.9);
+}
+
+.checkout h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.checkoutContainer {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 3.6rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.infolabel {
+  font-size: 1.1rem;
+  margin: 0.6rem 0;
+}
+
+.infoinput {
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.infobtn {
+  display: inline-block;
+  width: 20%;
+  background-color: #333;
+  color: #ddd;
+  padding: 0.8rem 1.2rem;
+  margin-top: 2.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.order {
+  width: 40%;
+}
+
+.orderContainer {
+  background-color: #efefef;
+  padding: 2.2rem;
+}
+
+.ordertitle {
+  font-size: 1.4rem;
+}
+
+.orderitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.orderitemName {
+  width: 60%;
+}
+
+.orderitemPrice {
+  width: 40%;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+}

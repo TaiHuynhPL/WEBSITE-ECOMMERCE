@@ -1,0 +1,35 @@
+.footer {
+  background-color: #000;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.4rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.list {
+  color: #a29375;
+}
+
+.title {
+  margin-bottom: 1.8rem;
+}
+
+.listitem {
+  padding: 0;
+}
+
+.item {
+  list-style: none;
+  margin-bottom: 0.6rem;
+}
+
+.item a {
+  text-decoration: none;
+  color: #a29375;
+  font-size: 0.9rem;
+}

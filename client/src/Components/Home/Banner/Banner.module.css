@@ -1,0 +1,50 @@
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.info {
+  width: 30%;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  font-size: 2.2rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 0.8rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  background-color: #333;
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    display: none;
+  }
+  .content {
+    display: none;
+  }
+  .btn {
+    padding: 0.6rem 0.8rem;
+  }
+}

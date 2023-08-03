@@ -1,0 +1,85 @@
+.login {
+  max-width: 1200px;
+  min-height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner {
+  background-image: url(../../Images/banner1.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  min-height: 600px;
+  width: 100%;
+}
+
+.signup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 40%;
+  min-height: 427px;
+  padding: 1.2rem 2.4rem;
+  text-align: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.signup h4 {
+  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btnSignup {
+  background-color: #333;
+  color: #ddd;
+  padding: 1.2rem;
+  margin-top: 2.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btnDisabled {
+  background-color: #333;
+  color: #ddd;
+  padding: 1.2rem;
+  margin-top: 2.2rem;
+  font-size: 1.1rem;
+  cursor: not-allowed;
+}
+
+.loginclick {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.click {
+  color: rgba(4, 23, 232, 0.6);
+  margin-left: 0.4rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.isInvalidInput {
+  color: red;
+  font-size: 0.9rem;
+}

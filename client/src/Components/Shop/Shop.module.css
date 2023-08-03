@@ -1,0 +1,85 @@
+.shop {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.shopBanner {
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.6rem;
+}
+
+.shoplarge {
+  font-size: 2.4rem;
+  font-style: italic;
+}
+
+.shopsmall {
+  font-size: 1rem;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 3.6rem;
+}
+
+.navbarContainer {
+  width: 20%;
+}
+
+.categories {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0;
+  color: #333;
+}
+
+.namecategories {
+  background-color: #333;
+  color: #ddd;
+  padding: 0.8rem 1.2rem;
+}
+
+.title {
+  background-color: #efefef;
+  padding: 0.8rem 1.4rem;
+}
+
+.item {
+  color: #555;
+  margin: 0.8rem 1.4rem;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: blanchedalmond;
+}
+
+.productListContainer {
+  width: 80%;
+}
+
+.inputcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.input {
+  width: 22rem;
+  height: 2.2rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.selectsort {
+  width: 9.2rem;
+  height: 1.6rem;
+}

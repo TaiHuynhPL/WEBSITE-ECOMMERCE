@@ -1,0 +1,55 @@
+.order {
+  max-width: 1200px;
+  margin: 32px auto 24px;
+}
+
+.orderInfo {
+  margin-bottom: 32px;
+  margin-left: 56px;
+}
+.orderInfo h1 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.orderInfo p {
+  margin: 8px 0;
+  color: gray;
+}
+
+.tTable {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-collapse: collapse;
+}
+
+.tTable th {
+  font-weight: 500;
+}
+
+.tTable td,
+.tTable th {
+  padding: 8px;
+  border: none;
+  text-align: center;
+}
+
+.tTable tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.tTable tr:hover {
+  background-color: #f7f7f76a;
+}
+
+.tTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #cbcbcb74;
+  color: #000;
+}
+
+.img {
+  width: 224px;
+}

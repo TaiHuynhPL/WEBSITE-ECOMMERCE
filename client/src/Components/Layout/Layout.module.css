@@ -1,0 +1,9 @@
+.message {
+  font-size: 1.8rem;
+  position: fixed;
+  right: 7%;
+  bottom: 5%;
+  cursor: pointer;
+  z-index: 5;
+  color: rgb(0, 94, 255, 0.8);
+}
