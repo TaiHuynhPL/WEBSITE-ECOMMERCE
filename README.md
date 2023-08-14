@@ -7,11 +7,11 @@ Web admin includes functions: registration, login, order tracking, CRUD with pro
 
 - Technology in use: ReactJS, CSS, Javascript, NodeJS, MongoDB, Express.
 
-- Link sever:
+- Link demo sever:
 https://server-asm3.vercel.app/
 
-- Link client:
+- Link demo client:
 https://asm3-clientapp.web.app/
 
-- Link admin:
+- Link demo admin:
 https://asm3-admin-d135d.web.app/
