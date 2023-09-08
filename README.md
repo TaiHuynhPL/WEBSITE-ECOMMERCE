@@ -15,3 +15,5 @@ https://asm3-clientapp.web.app/
 
 - Link demo admin:
 https://asm3-admin-d135d.web.app/
+
+- Instructions to run the program on local: open terminal => run "npm install" => run "npm start"
